@@ -11,14 +11,14 @@ router.get('/home', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 
-/* GET About page. */
-router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About' });
+/* GET About Me page. */
+router.get('/aboutme', function(req, res, next) {
+  res.render('index', { title: 'About Me' });
 });
 
-/* GET Products page. */
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products' });
+/* GET Projects page. */
+router.get('/projects', function(req, res, next) {
+  res.render('index', { title: 'Projects' });
 });
 
 /* GET Services page. */
