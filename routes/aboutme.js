@@ -7,3 +7,4 @@ router.get('/aboutme', function(req, res, next) {
     res.render('index', { title: 'About Me' });
   });
   
+  module.exports = router;
