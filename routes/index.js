@@ -11,10 +11,6 @@ router.get('/home', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 
-/* GET About Me page. */
-router.get('/aboutme', function(req, res, next) {
-  res.render('index', { title: 'About Me' });
-});
 
 /* GET Projects page. */
 router.get('/projects', function(req, res, next) {
