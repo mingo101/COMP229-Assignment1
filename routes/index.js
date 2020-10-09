@@ -1,9 +1,10 @@
+//<!--Domingo Novello - 301017413 - October 9, 2020 -->
 var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('home', { title: 'Home', logo: 'mingo101logo' });
+  res.render('home', { title: 'Home' });
 });
 
 /* GET home page. */
